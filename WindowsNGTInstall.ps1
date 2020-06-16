@@ -3,6 +3,8 @@
 # NutanixCMDletsPSSnapin required
 # 
 # Usage >WindowsNGTInstall.ps1 -vmname "<vmname or list in file>" -clusterServer "<cluster dns name or ip>" -errorlogpath "<optional paramater to save errors to a file>"
+#
+#Note: The user running this script must winrm access to the vms that are installing ngt
 ###############################################################################
 
 param (
